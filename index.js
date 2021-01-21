@@ -82,7 +82,7 @@ conn.on('message-status-update', json => {
 })
 setInterval(function () {
   for (i = 0; i < 3; i++) {
-    console.log(`[ ${moment().format("HH:mm:ss")} ] => Hallo I'm Ramlan :)`)
+    console.log(`[ ${moment().format("HH:mm:ss")} ] => SYAHRI-BOT :)`)
   }
 }, 15000)
 
